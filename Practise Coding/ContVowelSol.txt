@@ -1,0 +1,32 @@
+Pet simulator Tamagotchiv2?
+
+Basic Idea
+Be able to pick a pet
+
+Pet:
+Health-
+Hunger-
+Happiness-
+
+What you can do with the pet?
+Feed it
+Play games with it
+
+h = 1
+e = 1
+l = 2
+o = 
+
+string = "Hi mom and dad ooom yoda"
+
+wordCounterwithContVowels
+
+Loop over the string//
+	if character == " "
+		countVowel = 0
+
+		if character within the word is a vowel
+			//Start counting for continuous vowel
+				countVowel +=1
+	if countVowel >= 3
+		wordCounterwithContVowels +=1	
