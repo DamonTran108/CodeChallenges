@@ -1,4 +1,5 @@
 class ContinuousVowels:
+<<<<<<< HEAD
     def contVowels(self):
         string = "zooooooom yoda soda ooom dooom luuum Truuueee doooooom moooooooom"
         vowels = ["a", "o", "e", "i", "u"]
@@ -29,3 +30,6 @@ class ContinuousVowels:
 if __name__ == '__main__':
     my_testReverStr = ContinuousVowels()
     my_testReverStr.contVowels()
+=======
+
+>>>>>>> ab77b956d89fc346675c6b0cab615c9f84791aff
