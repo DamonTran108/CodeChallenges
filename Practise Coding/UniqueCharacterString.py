@@ -4,12 +4,13 @@ class UniqueCharString:
     def firstUniqueChar(self,hashTable):
 
 
-        string = "hello world"
+        string = "QELLO WORLD"
         IndexStore = 0
         letter = ""
 
 
         for i in range (len(string)):
+
             for character in hashTable:
 
                 if string[i].isalpha():
@@ -17,22 +18,24 @@ class UniqueCharString:
                         ## This is a unique character--- store the index by which it appeared
                         indexStore = i
                         letter = character
-
                         print(letter + " is the first  unique character")
                         break
-                break
+
+            break
 
 
 
     def addToHash(self,hashTable):
         #hashTable = {}
         count = 0
-        string = "hello world"
+        string = "QELLO WORLD"
 
 
         for character in string:
+            print ("character is + " + character)
             #print(character)
             if character not in hashTable:
+                #print(hashTable)
                 #print ("this character aint in the string " + character)
                 count = 1
                 #hashTable[character] = count
@@ -47,7 +50,7 @@ class UniqueCharString:
 
 if __name__ == '__main__':
     hashTable = {}
-    string = "hello world"
+    string = "HELLO WORLD"
     my_testReverStr = UniqueCharString()
     my_testReverStr.addToHash(hashTable)
     my_testReverStr.firstUniqueChar(hashTable)
